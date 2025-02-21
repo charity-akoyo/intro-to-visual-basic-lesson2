@@ -62,11 +62,6 @@
 
     End Sub
 
-    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        MsgBox("Application Exit")
-
-    End Sub
-
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         MsgBox("Application Exit")
     End Sub
