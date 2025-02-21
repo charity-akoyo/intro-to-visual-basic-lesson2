@@ -55,11 +55,19 @@
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-        MsgBox("Green", "Blue", "Red")
+        Dim image As Image
+        image = Image.FromFile("C:\User\KWUST\Desktop\image1000015199.jpg")
+        PictureBox1.Image = image
+        PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
+
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
         MsgBox("Application Exit")
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        MsgBox("Application Exit")
     End Sub
 End Class
